@@ -5,8 +5,8 @@ gentype = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 print("Hello To Multipe Gift Card Generator 2.0")
 
 total = input("How Many Would You Like To Generate? ")
-#Number To Generate
-number = int(total)
+#100
+number = int(100)
 file = (total + " Generated.txt")
 file2 = 'GiftCardsCodes.txt'
 mode = input("Which Would You Like To Generate?\nAmazon\nRoblox\nWebkinz\nFortnite\nIMVU\nEbay\nNetflix\niTunes\nPaypal\nVisa\nPokemonTGC\nPlaystation\nSteam\nXbox\nPlayStore\nMinecraft\n")
@@ -32,12 +32,13 @@ if(mode == "Minecraft"):
           out.write(generate1+generate2+generate3+generate4+space1+generate5+generate6+generate7+generate8+space2+generate9+generate10+generate11+generate12+newline)
 #Amazon
 if(mode == "Amazon"):
-    for x in range(number):
+    for x in range(100):
         generate1 = random.choice(gentype)
         generate2 = random.choice(gentype)
         generate3 = random.choice(gentype)
         generate4 = random.choice(gentype)
-        space1 = "-"
+        space1 = 
+"
         generate5 = random.choice(gentype)
         generate6 = random.choice(gentype)
         generate7 = random.choice(gentype)
